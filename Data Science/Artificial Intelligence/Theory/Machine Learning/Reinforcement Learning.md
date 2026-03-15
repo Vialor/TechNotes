@@ -1,0 +1,1 @@
+当环境可被完全观察到时，强化学习问题被称为_马尔可夫决策过程_（markov decision process）。 当状态不依赖于之前的操作时，我们称该问题为_上下文赌博机_（contextual bandit problem）。 当没有状态，只有一组最初未知回报的可用动作时，这个问题就是经典的_多臂赌博机_（multi-armed bandit problem）。
