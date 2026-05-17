@@ -25,6 +25,15 @@ Returns : 0 on Success. -1 on error.
 ```
 # Message Queue
 # Shared Memory
+## tmpfs **tmpfs** 是 Linux 提供的一种基于内存的临时文件系统。文件不是主要写到磁盘，而是放在内存页里，由内核管理。 可以被挂载到某个路径，比如：
+
+```
+/dev/shm
+/run
+/tmp
+```
+
+挂载后，程序可以像操作普通文件系统一样操作它。 内存的维护主要是开发者的责任。特别是程序异常退出的时候，应该自己想办法回收。
 # Signal: kill
 ```bash
 # kill a process `ctrl + c`, `kill -9` , `taskkill -f`
