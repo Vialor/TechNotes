@@ -1,3 +1,7 @@
+https://www.bilibili.com/video/BV1vKBAB8EVQ/?spm_id_from=333.337.search-card.all.click&vd_source=071852c2e3e67276dba927cf90ae002d
+Time Complexity
+Circuit Complexity
+Randomness
 # Computability Theory
 ## Problem transformation
 $A\leq_p B$: **Problem A is polynomial time reduceable to B** (Intuitively, A is no harder than B)

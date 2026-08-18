@@ -1,7 +1,7 @@
 > Classic Textbook:  
 > CLRS Introduction to Algorithms  
 
-[[Computability & Complexity]]
+[[Complexity Theory]]
 
 [[Abstraction]]
 [[Optimization]]
